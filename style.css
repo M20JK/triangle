@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+
+body{
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #00BCD4;
+
+}
+.main{
+    display: flex;
+
+}
+#all{
+    display: block;
+    margin-left: 100px;
+    margin-top: 80px;
+    justify-content: flex-end;
+
+}
+
+h1{
+    margin-bottom: 20px;
+}
+input#side3, #side2, #side1 {
+    padding: 8px;
+}
+#btn {
+    padding: 10px;
+    background-color:#008CBA ;
+    border:none;
+    color:#fdfdfa;
+    cursor: pointer;
+}
+#resulty {
+    padding: 10px ;
+
+}
